@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>Shubham Dhire | Frontend Developer · WordPress · SEO Specialist</title>
+    <meta name="description" content="Building fast, SEO-optimized, and high-converting WordPress websites with a focus on performance, UI/UX, and business growth. Based in Pune, Maharashtra.">
+    <meta name="keywords" content="Shubham Dhire, WordPress Developer, Frontend Developer, SEO Specialist, Pune, Web Developer, Portfolio">
+    <meta name="author" content="Shubham Dhire">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Shubham Dhire | Frontend Developer & WordPress Expert">
+    <meta property="og:description" content="Building fast, SEO-optimized, and high-converting WordPress websites.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://shubhamdhire.com">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Shubham Dhire | Frontend Developer & WordPress Expert">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ============ CURSOR ============ -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-outline" id="cursorOutline"></div>
+
+    <!-- ============ LOADER ============ -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-name">SD</div>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+            <div class="loader-text">Loading Portfolio...</div>
+        </div>
+    </div>
+
+    <!-- ============ NAVIGATION ============ -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-text">Shubham</span>
+                <span class="logo-dot">.</span>
+                <span class="logo-text">Dhire</span>
+            </a>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#portfolio" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <a href="#contact" class="nav-cta">Hire Me</a>
+                <button class="nav-hamburger" id="navHamburger" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============ HERO SECTION ============ -->
+    <section class="hero" id="home">
+        <div class="hero-bg-elements">
+            <div class="hero-gradient-orb orb-1"></div>
+            <div class="hero-gradient-orb orb-2"></div>
+            <div class="hero-gradient-orb orb-3"></div>
+            <div class="hero-grid"></div>
+        </div>
+
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge" data-animate="fade-up">
+                    <span class="badge-dot"></span>
+                    Available for projects
+                </div>
+
+                <h1 class="hero-title" data-animate="fade-up" data-delay="100">
+                    <span class="hero-greeting">Hello, I'm</span>
+                    <span class="hero-name">
+                        <span class="name-first">Shubham</span>
+                        <span class="name-last">Dhire</span>
+                    </span>
+                    <span class="hero-role">
+                        <span class="role-prefix">I'm a</span>
+                        <span class="typed-wrapper">
+                            <span class="typed-text" id="typedText"></span>
+                            <span class="typed-cursor">|</span>
+                        </span>
+                    </span>
+                </h1>
+
+                <p class="hero-description" data-animate="fade-up" data-delay="200">
+                    Building fast, SEO-optimized, and high-converting WordPress
+                    websites with a focus on <strong>performance</strong>,
+                    <strong>UI/UX</strong>, and <strong>business growth</strong>.
+                </p>
+
+                <div class="hero-cta" data-animate="fade-up" data-delay="300">
+                    <a href="#portfolio" class="btn btn-primary">
+                        <span>View Projects</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <span>Get in Touch</span>
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+
+                <div class="hero-stats" data-animate="fade-up" data-delay="400">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="3">0</span>
+                        <span class="stat-suffix">+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="20">0</span>
+                        <span class="stat-suffix">+</span>
+                        <span class="stat-label">Websites Delivered</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="30">0</span>
+                        <span class="stat-suffix">%</span>
+                        <span class="stat-label">Speed Improvement</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="20">0</span>
+                        <span class="stat-suffix">%</span>
+                        <span class="stat-label">Traffic Boost</span>
+                    </div>
+                </div>
+
+                <div class="hero-current" data-animate="fade-up" data-delay="500">
+                    <span class="current-label">Currently working at</span>
+                    <span class="current-company">The Vanilla Theory</span>
+                </div>
+            </div>
+
+            <div class="hero-visual" data-animate="fade-left" data-delay="300">
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-frame">
+                        <div class="hero-avatar">
+                            <div class="avatar-placeholder">
+                                <span class="avatar-initials">SD</span>
+                            </div>
+                        </div>
+                        <div class="hero-image-decoration dec-1"></div>
+                        <div class="hero-image-decoration dec-2"></div>
+                        <div class="hero-image-decoration dec-3"></div>
+                    </div>
+
+                    <!-- Floating Tech Cards -->
+                    <div class="floating-card card-1">
+                        <i class="fab fa-wordpress"></i>
+                        <span>WordPress</span>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fas fa-search"></i>
+                        <span>SEO</span>
+                    </div>
+                    <div class="floating-card card-3">
+                        <i class="fas fa-bolt"></i>
+                        <span>Performance</span>
+                    </div>
+                    <div class="floating-card card-4">
+                        <i class="fab fa-js-square"></i>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-scroll">
+            <a href="#about" class="scroll-indicator">
+                <span class="scroll-text">Scroll Down</span>
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Social Sidebar -->
+        <div class="hero-socials">
+            <a href="https://linkedin.com/in/shubham-dhire" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/shubhamdhire" target="_blank" rel="noopener" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:dhireshubham9921@gmail.com" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <div class="social-line"></div>
+        </div>
+    </section>
+
+    <!-- ============ ABOUT SECTION ============ -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Who I Am</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-content" data-animate="fade-right">
+                    <div class="about-text">
+                        <p class="about-lead">
+                            I'm a <strong>Frontend & WordPress Developer</strong> based in
+                            <strong>Pune, Maharashtra</strong>, with over 3 years of hands-on
+                            experience building high-performance, SEO-driven websites for
+                            B2B companies, startups, and media brands.
+                        </p>
+                        <p>
+                            My work sits at the intersection of <em>clean code</em>,
+                            <em>conversion optimization</em>, and <em>search performance</em>.
+                            I've led development teams, improved site speeds by up to 30%,
+                            and consistently delivered measurable results in traffic and engagement.
+                        </p>
+                        <p>
+                            Whether it's a landing page, a complex B2B publication platform,
+                            or a custom WordPress theme — I bring both technical depth and
+                            design sensibility to every project.
+                        </p>
+                    </div>
+
+                    <div class="about-info-grid">
+                        <div class="info-item">
+                            <i class="fas fa-user"></i>
+                            <div>
+                                <span class="info-label">Name</span>
+                                <span class="info-value">Shubham Dhire</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span class="info-label">Location</span>
+                                <span class="info-value">Pune, Maharashtra</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span class="info-label">Email</span>
+                                <span class="info-value">dhireshubham9921@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-briefcase"></i>
+                            <div>
+                                <span class="info-label">Experience</span>
+                                <span class="info-value">3+ Years</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Let's Work Together</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="about-competencies" data-animate="fade-left">
+                    <h3 class="competencies-title">Core Competencies</h3>
+                    <div class="competencies-grid">
+                        <div class="competency-card">
+                            <div class="competency-icon">
+                                <i class="fab fa-wordpress"></i>
+                            </div>
+                            <span>WordPress</span>
+                        </div>
+                        <div class="competency-card">
+                            <div class="competency-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <span>Frontend Dev</span>
+                        </div>
+                        <div class="competency-card">
+                            <div class="competency-icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <span>SEO</span>
+                        </div>
+                        <div class="competency-card">
+                            <div class="competency-icon">
+                                <i class="fas fa-tachometer-alt"></i>
+                            </div>
+                            <span>Performance</span>
+                        </div>
+                        <div class="competency-card">
+                            <div class="competency-icon">
+                                <i class="fas fa-paint-brush"></i>
+                            </div>
+                            <span>UI/UX</span>
+                        </div>
+                        <div class="competency-card">
+                            <div class="competency-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <span>Core Web Vitals</span>
+                        </div>
+                        <div class="competency-card">
+                            <div class="competency-icon">
+                                <i class="fas fa-puzzle-piece"></i>
+                            </div>
+                            <span>Elementor</span>
+                        </div>
+                        <div class="competency-card">
+                            <div class="competency-icon">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <span>Landing Pages</span>
+                        </div>
+                        <div class="competency-card">
+                            <div class="competency-icon">
+                                <i class="fab fa-figma"></i>
+                            </div>
+                            <span>Figma</span>
+                        </div>
+                        <div class="competency-card">
+                            <div class="competency-icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <span>Google Analytics</span>
+                        </div>
+                        <div class="competency-card">
+                            <div class="competency-icon">
+                                <i class="fas fa-building"></i>
+                            </div>
+                            <span>B2B Platforms</span>
+                        </div>
+                        <div class="competency-card">
+                            <div class="competency-icon">
+                                <i class="fas fa-lock"></i>
+                            </div>
+                            <span>SSL & Hosting</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ EXPERIENCE SECTION ============ -->
+    <section class="experience section" id="experience">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Experience</span>
+                <h2 class="section-title">Work Experience</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="timeline">
+                <!-- Experience 1 -->
+                <div class="timeline-item" data-animate="fade-up">
+                    <div class="timeline-dot">
+                        <div class="dot-pulse"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-title">WordPress Developer</h3>
+                                <span class="timeline-company">
+                                    <i class="fas fa-building"></i>
+                                    The Vanilla Theory
+                                </span>
+                            </div>
+                            <span class="timeline-date">
+                                <i class="fas fa-calendar"></i>
+                                Jul 2025 – Present
+                            </span>
+                        </div>
+                        <p class="timeline-description">
+                            Developing and maintaining responsive, SEO-friendly websites,
+                            handling domain, hosting, SSL setup, performance optimization,
+                            and collaborating with teams to deliver conversion-focused websites.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">WordPress</span>
+                            <span class="tag">SEO</span>
+                            <span class="tag">SSL</span>
+                            <span class="tag">Performance</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="timeline-item" data-animate="fade-up" data-delay="100">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-title">Website Developer</h3>
+                                <span class="timeline-company">
+                                    <i class="fas fa-building"></i>
+                                    Victorious Kidss Educares
+                                </span>
+                            </div>
+                            <span class="timeline-date">
+                                <i class="fas fa-calendar"></i>
+                                Mar 2025 – Jul 2025
+                            </span>
+                        </div>
+                        <p class="timeline-description">
+                            Improved website speed by 30% and increased organic traffic
+                            by 20% through targeted SEO and performance optimization strategies.
+                        </p>
+                        <div class="timeline-achievements">
+                            <div class="achievement">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>30% Speed Improvement</span>
+                            </div>
+                            <div class="achievement">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>20% Organic Traffic Boost</span>
+                            </div>
+                        </div>
+                        <div class="timeline-tags">
+                            <span class="tag">Speed Optimization</span>
+                            <span class="tag">SEO</span>
+                            <span class="tag">Analytics</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 3 -->
+                <div class="timeline-item" data-animate="fade-up" data-delay="200">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-title">WordPress Tech Lead</h3>
+                                <span class="timeline-company">
+                                    <i class="fas fa-building"></i>
+                                    Genrix B2B Tech Media
+                                </span>
+                            </div>
+                            <span class="timeline-date">
+                                <i class="fas fa-calendar"></i>
+                                Dec 2024 – Mar 2025
+                            </span>
+                        </div>
+                        <p class="timeline-description">
+                            Led a team of 3 developers, improved QA processes, reduced
+                            bugs by 25%, and increased user engagement by 18% through
+                            strategic platform improvements.
+                        </p>
+                        <div class="timeline-achievements">
+                            <div class="achievement">
+                                <i class="fas fa-users"></i>
+                                <span>Led 3 Developers</span>
+                            </div>
+                            <div class="achievement">
+                                <i class="fas fa-bug"></i>
+                                <span>25% Bug Reduction</span>
+                            </div>
+                            <div class="achievement">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>18% Engagement Increase</span>
+                            </div>
+                        </div>
+                        <div class="timeline-tags">
+                            <span class="tag">Team Lead</span>
+                            <span class="tag">QA</span>
+                            <span class="tag">B2B</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 4 -->
+                <div class="timeline-item" data-animate="fade-up" data-delay="300">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-title">WordPress Developer</h3>
+                                <span class="timeline-company">
+                                    <i class="fas fa-building"></i>
+                                    Demandify Media
+                                </span>
+                            </div>
+                            <span class="timeline-date">
+                                <i class="fas fa-calendar"></i>
+                                Jun 2023 – Dec 2024
+                            </span>
+                        </div>
+                        <p class="timeline-description">
+                            Delivered 10+ websites, increased page views by 15%, improved
+                            mobile retention by 20%, and reduced downtime by 40% through
+                            proactive maintenance and optimization.
+                        </p>
+                        <div class="timeline-achievements">
+                            <div class="achievement">
+                                <i class="fas fa-globe"></i>
+                                <span>10+ Websites Delivered</span>
+                            </div>
+                            <div class="achievement">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>15% Page Views Increase</span>
+                            </div>
+                            <div class="achievement">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>20% Mobile Retention</span>
+                            </div>
+                        </div>
+                        <div class="timeline-tags">
+                            <span class="tag">WordPress</span>
+                            <span class="tag">Maintenance</span>
+                            <span class="tag">Mobile</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 5 -->
+                <div class="timeline-item" data-animate="fade-up" data-delay="400">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-title">WordPress Developer (Intern)</h3>
+                                <span class="timeline-company">
+                                    <i class="fas fa-building"></i>
+                                    UnboundB2B
+                                </span>
+                            </div>
+                            <span class="timeline-date">
+                                <i class="fas fa-calendar"></i>
+                                Aug 2022 – Nov 2022
+                            </span>
+                        </div>
+                        <p class="timeline-description">
+                            Built landing pages, improved lead generation by 12%, and
+                            assisted in performance optimization across multiple client websites.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Landing Pages</span>
+                            <span class="tag">Lead Gen</span>
+                            <span class="tag">Optimization</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="section-header education-header" data-animate="fade-up">
+                <span class="section-tag">Academic</span>
+                <h2 class="section-title section-title-sm">My Education</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="education-grid">
+                <div class="education-card" data-animate="fade-up">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-info">
+                        <h3>B.Tech in Information Technology</h3>
+                        <p class="education-school">Parvatibai Genba Moze College of Engineering</p>
+                        <span class="education-year">2020 – 2023</span>
+                    </div>
+                </div>
+                <div class="education-card" data-animate="fade-up" data-delay="100">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-info">
+                        <h3>Diploma in Computer Engineering</h3>
+                        <p class="education-school">JSPM University, Pune</p>
+                        <span class="education-year">2017 – 2020</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ SKILLS SECTION ============ -->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Technical</span>
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Frontend Development -->
+                <div class="skill-category" data-animate="fade-up">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Frontend Development</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <div class="skill-tag">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                            <div class="skill-level" data-level="95"></div>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                            <div class="skill-level" data-level="90"></div>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                            <div class="skill-level" data-level="80"></div>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fab fa-bootstrap"></i>
+                            <span>Bootstrap</span>
+                            <div class="skill-level" data-level="90"></div>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Responsive Design</span>
+                            <div class="skill-level" data-level="95"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- WordPress Ecosystem -->
+                <div class="skill-category" data-animate="fade-up" data-delay="100">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon">
+                            <i class="fab fa-wordpress"></i>
+                        </div>
+                        <h3>WordPress Ecosystem</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <div class="skill-tag">
+                            <i class="fab fa-wordpress"></i>
+                            <span>WordPress Dev</span>
+                            <div class="skill-level" data-level="95"></div>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-palette"></i>
+                            <span>Custom Themes</span>
+                            <div class="skill-level" data-level="85"></div>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-plug"></i>
+                            <span>Plugin Development</span>
+                            <div class="skill-level" data-level="75"></div>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-puzzle-piece"></i>
+                            <span>Elementor</span>
+                            <div class="skill-level" data-level="95"></div>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-file-alt"></i>
+                            <span>Landing Pages</span>
+                            <div class="skill-level" data-level="90"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SEO & Performance -->
+                <div class="skill-category" data-animate="fade-up" data-delay="200">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>SEO & Performance</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <div class="skill-tag">
+                            <i class="fas fa-search"></i>
+                            <span>On-Page SEO</span>
+                            <div class="skill-level" data-level="90"></div>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-cogs"></i>
+                            <span>Technical SEO</span>
+                            <div class="skill-level" data-level="85"></div>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-tachometer-alt"></i>
+                            <span>Core Web Vitals</span>
+                            <div class="skill-level" data-level="90"></div>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-bolt"></i>
+                            <span>Speed Optimization</span>
+                            <div class="skill-level" data-level="90"></div>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-chart-bar"></i>
+                            <span>Google Analytics</span>
+                            <div class="skill-level" data-level="85"></div>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-search-plus"></i>
+                            <span>Search Console</span>
+                            <div class="skill-level" data-level="85"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Infrastructure & Tools -->
+                <div class="skill-category" data-animate="fade-up" data-delay="300">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>Infrastructure & Tools</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <div class="skill-tag">
+                            <i class="fas fa-server"></i>
+                            <span>Domain & Hosting</span>
+                            <div class="skill-level" data-level="90"></div>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-lock"></i>
+                            <span>SSL Configuration</span>
+                            <div class="skill-level" data-level="90"></div>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-wrench"></i>
+                            <span>Maintenance</span>
+                            <div class="skill-level" data-level="90"></div>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Security</span>
+                            <div class="skill-level" data-level="80"></div>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fab fa-figma"></i>
+                            <span>Figma</span>
+                            <div class="skill-level" data-level="75"></div>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-paint-brush"></i>
+                            <span>Canva</span>
+                            <div class="skill-level" data-level="80"></div>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-palette"></i>
+                            <span>UI/UX Design</span>
+                            <div class="skill-level" data-level="80"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ PORTFOLIO SECTION ============ -->
+    <section class="portfolio section" id="portfolio">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Live Projects</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="project-card" data-animate="fade-up">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                            <i class="fas fa-racing-flag" style="font-size: 2rem; color: white;"></i>
+                            <span style="color: white; font-weight: 600;">godspeedracing.in</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://godspeedracing.in" target="_blank" rel="noopener" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Visit Site</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Godspeed Racing</h3>
+                        <p>godspeedracing.in</p>
+                    </div>
+                </div>
+
+                <div class="project-card" data-animate="fade-up" data-delay="100">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                            <i class="fas fa-microchip" style="font-size: 2rem; color: white;"></i>
+                            <span style="color: white; font-weight: 600;">martechlogic.com</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://martechlogic.com" target="_blank" rel="noopener" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Visit Site</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>MarTech Logic</h3>
+                        <p>martechlogic.com</p>
+                    </div>
+                </div>
+
+                <div class="project-card" data-animate="fade-up" data-delay="200">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                            <i class="fas fa-chart-line" style="font-size: 2rem; color: white;"></i>
+                            <span style="color: white; font-weight: 600;">salescliff.com</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://salescliff.com" target="_blank" rel="noopener" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Visit Site</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>SalesCliff</h3>
+                        <p>salescliff.com</p>
+                    </div>
+                </div>
+
+                <div class="project-card" data-animate="fade-up" data-delay="300">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                            <i class="fas fa-bullhorn" style="font-size: 2rem; color: white;"></i>
+                            <span style="color: white; font-weight: 600;">tinkerheadsmarketing.com</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://tinkerheadsmarketing.com" target="_blank" rel="noopener" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Visit Site</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Tinkerheads Marketing</h3>
+                        <p>tinkerheadsmarketing.com</p>
+                    </div>
+                </div>
+
+                <div class="project-card" data-animate="fade-up" data-delay="400">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                            <i class="fas fa-warehouse" style="font-size: 2rem; color: white;"></i>
+                            <span style="color: white; font-weight: 600;">realitywarehousing.in</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://realitywarehousing.in" target="_blank" rel="noopener" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Visit Site</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Reality Warehousing</h3>
+                        <p>realitywarehousing.in</p>
+                    </div>
+                </div>
+
+                <div class="project-card" data-animate="fade-up" data-delay="500">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);">
+                            <i class="fas fa-industry" style="font-size: 2rem; color: white;"></i>
+                            <span style="color: white; font-weight: 600;">kavya-industries.com</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://kavya-industries.com" target="_blank" rel="noopener" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Visit Site</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Kavya Industries</h3>
+                        <p>kavya-industries.com</p>
+                    </div>
+                </div>
+
+                <div class="project-card" data-animate="fade-up" data-delay="600">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);">
+                            <i class="fas fa-bullseye" style="font-size: 2rem; color: #333;"></i>
+                            <span style="color: #333; font-weight: 600;">abmlogic.com</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://abmlogic.com" target="_blank" rel="noopener" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Visit Site</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>ABM Logic</h3>
+                        <p>abmlogic.com</p>
+                    </div>
+                </div>
+
+                <div class="project-card" data-animate="fade-up" data-delay="700">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);">
+                            <i class="fas fa-users-cog" style="font-size: 2rem; color: white;"></i>
+                            <span style="color: white; font-weight: 600;">hrtechlogic.com</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://hrtechlogic.com" target="_blank" rel="noopener" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Visit Site</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>HR Tech Logic</h3>
+                        <p>hrtechlogic.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ CONTACT SECTION ============ -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Get in Touch</span>
+                <h2 class="section-title">Let's Connect</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info" data-animate="fade-right">
+                    <p class="contact-intro">
+                        Have a project in mind? Let's build something amazing together.
+                        I'm always open to discussing new opportunities and ideas.
+                    </p>
+
+                    <div class="contact-cards">
+                        <div class="contact-card">
+                            <div class="contact-card-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:dhireshubham9921@gmail.com">dhireshubham9921@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-card-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+919518550494">+91 9518550494</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-card-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Location</h4>
+                                <span>Pune, Maharashtra, India</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-card-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="https://linkedin.com/in/shubham-dhire" target="_blank" rel="noopener">
+                                    linkedin.com/in/shubham-dhire
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper" data-animate="fade-left">
+                 <form class="contact-form fade-in" 
+      id="contactForm"
+      action="https://formspree.io/f/mpqkqzkg" 
+      method="POST">
+
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+        <span class="form-highlight"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="your@email.com" required>
+        <span class="form-highlight"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Project inquiry, collaboration...">
+        <span class="form-highlight"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+        <span class="form-highlight"></span>
+    </div>
+
+    <!-- Hidden fields -->
+    <input type="hidden" name="_subject" value="New Portfolio Message">
+    <input type="hidden" name="_captcha" value="false">
+
+    <button type="submit" class="btn btn-primary btn-full">
+        <span>Send Message</span>
+        <i class="fas fa-paper-plane"></i>
+    </button>
+
+    <!-- Success Message -->
+    <div class="form-success" id="formSuccess" style="display:none;">
+        ✓ Message sent! I'll get back to you within 24 hours.
+    </div>
+</form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#home" class="footer-logo">
+                        <span>Shubham</span><span class="logo-dot">.</span><span>Dhire</span>
+                    </a>
+                    <p>Building fast, SEO-optimized, and high-converting websites.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <div class="footer-social-links">
+                        <a href="https://linkedin.com/in/shubham-dhire" target="_blank" rel="noopener" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/shubhamdhire" target="_blank" rel="noopener" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:dhireshubham9921@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+919518550494" aria-label="Phone">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Shubham Dhire. All rights reserved.</p>
+                <p>Built with ❤️ and clean code.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js"></script><script>
+const form = document.getElementById("contactForm");
+const successMsg = document.getElementById("formSuccess");
+
+form.addEventListener("submit", async function(e) {
+    e.preventDefault();
+
+    const data = new FormData(form);
+
+    const response = await fetch(form.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+    });
+
+    if (response.ok) {
+        form.reset();
+        successMsg.style.display = "block";
+    } else {
+        alert("Oops! Something went wrong.");
+    }
+});
+</script>
+</body>
+</html>
